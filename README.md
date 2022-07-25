@@ -132,4 +132,14 @@ session.getTransaction().commit;
 - @EnableMongoRepositories for the main class we are using for mongoRepo
 - @Autowired using for wired repository
 - ResponseEntity for returning response to server
+<h2> JWT </h2>
 
+- https://github.com/jwtk/jjwt
+
+
+
+
+Repository:
+Service: communicate with dal
+Entity: Data models
+Controller: Api written
